@@ -7,12 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-				<%@ include file="AdminMasterPage.jsp"%>
-			</div>
-		</div>
-	</div>
+	<h3>File Upload</h3>
+	<form action="readxml.htm" method="post">
+		<input type="file" name="file" /></br> <input type="submit"
+			value="upload file">
+	</form>
 </body>
 </html>

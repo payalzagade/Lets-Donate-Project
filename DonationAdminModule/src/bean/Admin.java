@@ -4,6 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.web.context.annotation.SessionScope;
+
+import dao.MD5Encryption;
+@SessionScope
 @Entity
 @Table(name="admin")
 public class Admin {
@@ -32,6 +37,7 @@ public String getPassword() {
 	return password;
 }
 public void setPassword(String password) {
+	
 	this.password = password;
 }
 public String getName() {

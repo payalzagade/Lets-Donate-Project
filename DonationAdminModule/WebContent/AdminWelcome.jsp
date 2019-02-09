@@ -7,12 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12">
-				<%@ include file="AdminMasterPage.jsp"%>
-			</div>
-		</div>
-	</div>
+<div>
+	<%@include file="AdminMasterPage.jsp" %>
+</div>
 </body>
 </html>
